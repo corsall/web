@@ -1,0 +1,43 @@
+html{
+    background-color: #e68e7c;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #e68e7c;
+    padding:0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+#portfile-img{
+    width: 400px;
+    height: auto;
+}
+
+#gears-img
+{
+    display: block;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+h2{
+    color: white;
+    letter-spacing: 1px;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
