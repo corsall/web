@@ -74,6 +74,12 @@ button {
     border-radius: 5px;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: #a9c42d;
+    transform: scale(1.01);
+}
+
 #price{
     font-weight: 700;
     font-size: 1.4rem;
@@ -81,6 +87,12 @@ button {
 
 #bottom-left-section h4 {
     margin-bottom: 15px;
+}
+
+
+#bottom-left-section p {
+    font-size: 0.8rem;
+    margin-bottom: 40px;
 }
 
 #price-frequency, #price{
@@ -97,4 +109,11 @@ button {
 
 #price-container{
     margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
