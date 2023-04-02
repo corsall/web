@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Results summary component</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Karla:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <div class="top-section">
+
+      <h4 class="result-header">Your Result</h4>
+
+      <div class="avg-score">
+        <h1>76</h1>
+        <p>of 100</p>
+      </div>
+      <div class="description">
+        <h3>Great</h3>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+    </div>
+    <div class="bottom-section">
+      <h4 class="summary-header">Summary</h4>
+
+      
+      <div id="reaction-summary" class="summary-container">
+        <div class="text-summary">
+          <img src="assets\images\icon-reaction.svg">
+          <p class ="reaction-text">Reaction</p>
+        </div>
+        <p class ="score"><span> 80 </span> / 100</p>
+      </div>
+      <div id="memmory-summary" class="summary-container">
+        <div class="text-summary">
+          <img src="assets\images\icon-memory.svg">
+          <p class ="reaction-text">Memory</p>
+        </div>
+        <p class ="score"><span> 92 </span> / 100</p>
+      </div>
+      <div id="verbal-summary" class="summary-container">
+        <div class="text-summary">
+          <img src="assets\images\icon-verbal.svg">
+          <p class ="reaction-text">Verbal</p>
+        </div>
+        <p class ="score"><span> 61 </span> / 100</p>
+      </div>
+      <div id="visual-summary" class="summary-container">
+        <div class="text-summary">
+          <img src="assets\images\icon-visual.svg">
+          <p class ="reaction-text">Visual</p>
+        </div>
+        <p class ="score"><span> 72 </span> / 100</p>
+      </div>
+      
+
+      <button class="btn-continue">Continue</button>
+    </div>
+  </div>
+</body>
+</html>
