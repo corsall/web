@@ -127,4 +127,8 @@ ul {
     #top-section {
         height: 25%;
     }
+
+    .descitpion p{
+        text-align: center;
+    }
 }
