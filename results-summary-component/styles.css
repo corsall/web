@@ -201,4 +201,9 @@ img{
     .summary-header{
         font-size: 2rem;
     }
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
 }
