@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #4f7cac, #2693c3);
+    height: 100%;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.clock-face{
+    position: relative;
+    background-color: #4f7cac;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.hand{
+    width: 50%;
+    height: 8px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.4, 2.62, 0.58, 1);
+}
