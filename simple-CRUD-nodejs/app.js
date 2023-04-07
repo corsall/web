@@ -7,7 +7,7 @@ const app = express();
 const jsonParser = express.json();
 
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/client'));
 
 const filepath = 'users.json';
 app.get('/api/users', function(req, res){
@@ -33,7 +33,7 @@ app.post('/api/users', jsonParser, function(req, res){
     if(!req.body) return res.sendStatus(400);
 
     const userName = req.body.name;
-    const userAge = req.body.age;
+    const userAge = parseInt(req.body.age);
 
     const content = fs.readFileSync(filepath, 'utf8');
     const users = JSON.parse(content);
@@ -75,7 +75,7 @@ app.put("/api/users", jsonParser, function(req, res){
 
     const userId = req.body.id;
     const userName = req.body.name;
-    const userAge = req.body.age;
+    const userAge = parseInt(req.body.age);
 
     let data = fs.readFileSync(filepath, 'utf8');
     let users = JSON.parse(data);
