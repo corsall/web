@@ -17,7 +17,6 @@ app.get('/api/users', function(req, res){
 });
 
 app.get('/api/users/:id', function(req, res){
-    console.log('test');
     const id = req.params.id;
 
     const content = fs.readFileSync(filepath, 'utf8');
@@ -29,7 +28,6 @@ app.get('/api/users/:id', function(req, res){
 });
 
 app.post('/api/users', jsonParser, function(req, res){
-    console.log('test');
     if(!req.body) return res.sendStatus(400);
 
     const userName = req.body.name;
