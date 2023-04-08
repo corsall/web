@@ -1,0 +1,1 @@
+To install the necessary dependencies for this project, run the following command: npm install
