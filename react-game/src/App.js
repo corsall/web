@@ -31,6 +31,9 @@ function Board({xIsNext, squares, onPlay}) {
       newButtonColors[winner[1]] = 'green';
       newButtonColors[winner[2]] = 'green';
       setButtonColors(newButtonColors);
+    } else {
+      const newButtonColors = Array(9).fill('white');
+      setButtonColors(newButtonColors);
     }
   }
 
