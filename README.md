@@ -4,14 +4,14 @@
 
 \single-price-grid
 
-![restaurant_website](https://github.com/corsall/web/blob/main/web\subsription-banner.png)
+![restaurant_website](https://github.com/corsall/web/blob/master/subsription-banner.png)
 
 \results-summary-component
 This page consumes simple nodeJs api 
 generates random numbers in summary every time the page is reloaded
 
-![restaurant_website](https://github.com/corsall/web/blob/main/web\web\summary.png)
+![restaurant_website](https://github.com/corsall/web/blob/master/summary.png)
 
 Mobile version
 
-![restaurant_website](https://github.com/corsall/web/blob/main/web\web\summary-mobile-version.png)
+![restaurant_website](https://github.com/corsall/web/blob/master/summary-mobile-version.png)
